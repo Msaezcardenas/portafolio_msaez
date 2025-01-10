@@ -15,15 +15,15 @@ export const Wrapper = styled.section`
   }
 
   .icon {
-    height: 48px;
+    height: 50px;
     width: auto;
-    border: 1px solid var(--primary-50);
+    border: 1px solid var(--grey-300);
     border-radius: 50%;
-    padding: 6px;
+    padding: 10px;
     gap: 1rem;
-    background-color: var(--white);
+    background-color: none;
     cursor: pointer;
-    box-shadow: var(--shadow-1);
+    box-shadow: var(--shadow-2);
   }
 
   .avatar-container {
@@ -51,13 +51,21 @@ export const Wrapper = styled.section`
   .role {
     font-size: 2rem;
     color: #333;
-    font-weight: 400;
+    font-weight: 900;
+    line-height: 1.5rem;
   }
-  h1 {
-    line-height: 4rem;
+
+  h3 {
+    line-height: 3rem;
+    font-weight: 700;
+    font-size: 1.125rem;
+    color: #5c6370;
   }
 
   p {
-    font-size: 1rem;
+    letter-spacing: 1px;
+    line-height: 1.25rem;
+    font-weight: 600;
+    color: #5c6370;
   }
 `;
