@@ -1,3 +1,4 @@
+import { forwardRef } from 'react';
 import ItemExperience from '../components/ItemExperience';
 import { Wrapper } from '../wrappers/Experience';
 
@@ -28,16 +29,18 @@ const workExperiences: WorkExperience[] = [
   },
 ];
 
-const Experience = () => {
+const Experience = forwardRef<HTMLDivElement>((_, ref) => {
+  console.log(ref);
+
   return (
     <Wrapper>
-      <div className='timeline'>
+      <div className='timeline' ref={ref} id='experience'>
         {workExperiences.map((experience, index) => (
           <ItemExperience key={index} experience={experience} />
         ))}
       </div>
     </Wrapper>
   );
-};
+});
 
 export default Experience;
