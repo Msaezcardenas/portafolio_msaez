@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const Wrapper = styled.div`
   /* Contenedor principal de la línea de tiempo */
+  margin-top: 2rem;
   .timeline {
     position: relative;
     max-width: 900px;

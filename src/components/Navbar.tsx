@@ -14,10 +14,13 @@ const Navbar: React.FC<NavbarProps> = ({ icon }) => {
       </Link>
       <ul>
         <li>
-          <Link to='/'>Proyectos</Link>
+          <Link to='/'>Experience</Link>
         </li>
         <li>
           <Link to='/projects'>Proyectos</Link>
+        </li>
+        <li>
+          <Link to='/formacion'>Formacion</Link>
         </li>
       </ul>
 
