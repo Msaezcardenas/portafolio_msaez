@@ -1,15 +1,16 @@
-import Slider from '../components/Slider';
-import { Wrapper } from '../wrappers/Proyects';
+import CardProject from '../components/CardProject';
+import { Wrapper } from '../wrappers/ProjectSection';
+import { projects } from '../data/projectsData';
 
 const Projects = () => {
   return (
     <Wrapper>
-      <h1> Titulo del Proyecto</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente fugit error quasi quaerat ratione, molestiae fuga magni. Laboriosam, itaque
-        nihil dolorem sapiente est facilis, quisquam provident ducimus eligendi assumenda ut.
-      </p>
-      <Slider />
+      <h3> Estos son algunos de mis trabajos</h3>
+      <div className='cards-container'>
+        {projects.map((project) => (
+          <CardProject key={project.id} project={project} />
+        ))}
+      </div>
     </Wrapper>
   );
 };

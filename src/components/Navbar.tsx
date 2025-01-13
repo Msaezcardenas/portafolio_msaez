@@ -19,9 +19,6 @@ const Navbar: React.FC<NavbarProps> = ({ icon }) => {
         <li>
           <Link to='/projects'>Proyectos</Link>
         </li>
-        <li>
-          <Link to='/formacion'>Formacion</Link>
-        </li>
       </ul>
 
       <FaMoon />
