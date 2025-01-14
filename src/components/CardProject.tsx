@@ -14,7 +14,6 @@ const CardProject: React.FC<CardProjectProps> = ({ project }) => {
   const handleClick = () => {
     navigate(`/projects/${project.id}`, { state: { project } });
   };
-  console.log(project);
 
   return (
     <Wrapper>

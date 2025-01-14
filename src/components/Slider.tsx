@@ -1,13 +1,11 @@
 import { useState } from 'react';
-import one from '../assets/uno.jpg';
-import dos from '../assets/dos.jpg';
-import tres from '../assets/tres.jpg';
 import { Wrapper } from '../wrappers/Slider';
 
-const Slider: React.FC = () => {
-  // Lista de imágenes
-  const images = [one, dos, tres];
+interface SliderProps {
+  images: string[];
+}
 
+const Slider: React.FC<SliderProps> = ({ images }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const nextSlide = () => {

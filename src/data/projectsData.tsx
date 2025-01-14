@@ -1,13 +1,4 @@
-// import { FaReact } from 'react-icons/fa';
-// import { TbBrandTypescript } from 'react-icons/tb';
-// import { RiJavascriptFill } from 'react-icons/ri';
-// import { SiRedux, SiJest } from 'react-icons/si';
 import { Project } from '../types/types';
-// <TbBrandTypescript />,
-// <RiJavascriptFill />,
-// <SiRedux />,
-// <SiJest />,
-
 import one from '../assets/uno.jpg';
 import dos from '../assets/dos.jpg';
 import tres from '../assets/tres.jpg';
@@ -30,6 +21,35 @@ export const projects: Project[] = [
     ],
     images: [one, dos, tres],
     design: { hasPallet: true, colors: ['ffe785-bg', '333333-color', 'f96900-secondary', '1c7c54-cta'] },
-    characteristics: ['Responsivo', 'Interactivo', 'Escalable'],
+    characteristics: [
+      {
+        categoryTitle: 'Modelo basado en API RESTful:',
+        items: [
+          'Los datos del backend son consumidos mediante solicitudes HTTP utilizando Axios.',
+          'Las respuestas de la API son procesadas en loaders o hooks personalizados (customFetch) para separar la lógica de datos del componente visual.',
+        ],
+      },
+      {
+        categoryTitle: 'Gestión del estado global:',
+        items: [
+          'UserSlice: Maneja los datos relacionados con la autenticación y la información del usuario, como el perfil o el historial de compras.',
+          'Evita errores en tiempo de desarrollo y facilita el mantenimiento del código.',
+        ],
+      },
+      {
+        categoryTitle: 'Tipado de datos con TypeScript:',
+        items: [
+          'Uso de interfaces como ProductsResponse para garantizar la integridad de los datos recibidos desde el backend.',
+          'Las respuestas de la API son procesadas en loaders o hooks personalizados (customFetch) para separar la lógica de datos del componente visual.',
+        ],
+      },
+      {
+        categoryTitle: 'Diseño centrado en el usuario:',
+        items: [
+          'Navegación fácil y estructura visual intuitiva gracias a styled-components.',
+          'Compatibilidad con dispositivos móviles para una experiencia de compra óptima.',
+        ],
+      },
+    ],
   },
 ];

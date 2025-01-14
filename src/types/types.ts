@@ -6,5 +6,5 @@ export interface Project {
   tecnologies: { id: number; name: string }[]; // Array de tecnologías
   images: string[]; // Array de URLs de imágenes
   design: { hasPallet: true; colors: string[] };
-  characteristics: string[]; // Características del proyecto
+  characteristics: { categoryTitle: string; items: string[] }[]; // Características del proyecto
 }
