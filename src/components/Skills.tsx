@@ -1,5 +1,5 @@
 import { FaFigma, FaGithub, FaNodeJs, FaReact } from 'react-icons/fa';
-import { Wrapper } from '../wrappers/Skills';
+import { Wrapper } from '../stlyes/wrappers/Skills';
 import { TbBrandTypescript } from 'react-icons/tb';
 import { RiJavascriptFill } from 'react-icons/ri';
 import { SiExpress, SiJest, SiMongodb, SiRedux } from 'react-icons/si';

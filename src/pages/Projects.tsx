@@ -1,5 +1,5 @@
 import CardProject from '../components/CardProject';
-import { Wrapper } from '../wrappers/ProjectSection';
+import { Wrapper } from '../stlyes/wrappers/ProjectSection';
 import { projects } from '../data/projectsData';
 
 const Projects = () => {

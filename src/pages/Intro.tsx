@@ -1,6 +1,6 @@
-import { Wrapper } from '../wrappers/Intro';
+import { Wrapper } from '../stlyes/wrappers/Intro';
 import { FaFileDownload, FaGithub, FaLinkedin } from 'react-icons/fa';
-import avatar from '../assets/avatar.png';
+import avatar from '../assets/molu.JPG';
 
 const Intro = () => {
   return (

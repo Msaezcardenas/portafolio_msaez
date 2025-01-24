@@ -2,7 +2,7 @@ import { FaReact } from 'react-icons/fa';
 import { TbBrandTypescript } from 'react-icons/tb';
 import { RiJavascriptFill } from 'react-icons/ri';
 import { SiJest, SiRedux } from 'react-icons/si';
-import { Wrapper } from '../wrappers/Tecnologies';
+import { Wrapper } from '../stlyes/wrappers/Tecnologies';
 
 interface TecnologiesProjectProps {
   tecnologies: { id: number; name: string }[];

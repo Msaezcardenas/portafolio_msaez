@@ -1,5 +1,5 @@
 import { CiCalendar } from 'react-icons/ci';
-import { Wrapper } from '../wrappers/HeaderProject';
+import { Wrapper } from '../stlyes/wrappers/HeaderProject';
 
 interface HeaderProjectProps {
   description: {

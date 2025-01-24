@@ -1,4 +1,4 @@
-import { Wrapper } from '../wrappers/Characteristics';
+import { Wrapper } from '../stlyes/wrappers/Characteristics';
 
 interface CharacteristicsProps {
   characteristics: {

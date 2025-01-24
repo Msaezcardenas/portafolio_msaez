@@ -1,5 +1,5 @@
 import ItemExperience from '../components/ItemExperience';
-import { Wrapper } from '../wrappers/Experience';
+import { Wrapper } from '../stlyes/wrappers/Experience';
 
 type WorkExperience = {
   role: string;

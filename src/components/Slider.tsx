@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Wrapper } from '../wrappers/Slider';
+import { Wrapper } from '../stlyes/wrappers/Slider';
 
 interface SliderProps {
   images: string[];

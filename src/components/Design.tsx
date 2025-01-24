@@ -1,4 +1,4 @@
-import { Wrapper } from '../wrappers/Design';
+import { Wrapper } from '../stlyes/wrappers/Design';
 
 interface DesignProps {
   design: { hasPallet: true; colors: string[] };

@@ -1,4 +1,4 @@
-import { Wrapper } from '../wrappers/CardProject';
+import { Wrapper } from '../stlyes/wrappers/CardProject';
 import TecnologiesProject from './TecnologiesProject';
 import { FaExternalLinkAlt } from 'react-icons/fa';
 import { useNavigate } from 'react-router-dom';

@@ -1,4 +1,3 @@
-// Define el tipo para cada proyecto
 export interface Project {
   id: number;
   title: string;

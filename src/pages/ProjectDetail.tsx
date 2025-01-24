@@ -1,5 +1,5 @@
 import Slider from '../components/Slider';
-import { Wrapper } from '../wrappers/Proyects';
+import { Wrapper } from '../stlyes/wrappers/Proyects';
 import Design from '../components/Design';
 import Characteristics from '../components/Characteristics';
 import HeaderProject from '../components/HeaderProject';

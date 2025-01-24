@@ -1,5 +1,5 @@
 import Skills from '../components/Skills';
-import { Wrapper } from '../wrappers/Home';
+import { Wrapper } from '../stlyes/wrappers/Home';
 import Experience from './Experience';
 import Intro from './Intro';
 

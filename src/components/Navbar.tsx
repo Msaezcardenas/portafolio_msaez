@@ -1,16 +1,22 @@
-import { Wrapper } from '../wrappers/Navbar';
+import { Wrapper } from '../stlyes/wrappers/Navbar';
 import { Link } from 'react-router-dom';
-import { FaMoon } from 'react-icons/fa';
+import { FaMoon, FaSun } from 'react-icons/fa';
+import { useContext } from 'react';
+import { ThemeContext } from '../context/ThemeContext';
+import icon from '../assets/icons8-m-quill-96.png';
+import iconLight from '../assets/ligth.png';
 
-type NavbarProps = {
-  icon: string;
-};
+const Navbar = () => {
+  const themeContext = useContext(ThemeContext);
 
-const Navbar: React.FC<NavbarProps> = ({ icon }) => {
+  if (!themeContext) return null;
+
+  const { isDarkTheme, toggleTheme } = themeContext;
+
   return (
     <Wrapper>
       <Link to='/'>
-        <img src={icon} />
+        <img src={!isDarkTheme ? icon : iconLight} />
       </Link>
       <ul>
         <li>
@@ -21,7 +27,9 @@ const Navbar: React.FC<NavbarProps> = ({ icon }) => {
         </li>
       </ul>
 
-      <FaMoon />
+      <button className='btn' onClick={toggleTheme}>
+        {isDarkTheme ? <FaSun /> : <FaMoon />}
+      </button>
     </Wrapper>
   );
 };

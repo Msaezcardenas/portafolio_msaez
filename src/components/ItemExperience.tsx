@@ -1,4 +1,4 @@
-import { Wrapper } from '../wrappers/ItemExperience';
+import { Wrapper } from '../stlyes/wrappers/ItemExperience';
 
 type WorkExperience = {
   role: string;
