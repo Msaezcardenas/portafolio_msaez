@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.section`
+  margin-top: 80px;
   .intro {
     display: flex;
     flex-direction: column;
@@ -36,7 +37,6 @@ export const Wrapper = styled.section`
     box-shadow: ${({ theme }) => theme.colors.shadow};
     &:hover {
       transform: scale(1.1);
-      filter: brightness(1.5);
     }
   }
 
@@ -92,7 +92,9 @@ export const Wrapper = styled.section`
   }
 
   @media (min-width: 768px) {
-    padding: 2rem 0;
+    padding: 2rem 1rem;
+    width: 90%;
+
     .intro {
       display: flex;
       flex-direction: row;
@@ -116,5 +118,9 @@ export const Wrapper = styled.section`
       width: 250px;
       height: 250px;
     }
+  }
+
+  @media (min-width: 992px) {
+    width: 100%;
   }
 `;

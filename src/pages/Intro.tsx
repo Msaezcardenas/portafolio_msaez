@@ -1,6 +1,6 @@
 import { Wrapper } from '../stlyes/wrappers/Intro';
 import { FaFileDownload, FaGithub, FaLinkedin } from 'react-icons/fa';
-import avatar from '../assets/molu.JPG';
+import avatar from '../assets/molu.jpg';
 
 const Intro = () => {
   return (
@@ -8,13 +8,13 @@ const Intro = () => {
       <div className='intro'>
         <div className='social-and-avatar'>
           <div className='social-links'>
-            <a target='_blank'>
+            <a href='https://github.com/Msaezcardenas' target='_blank'>
               <FaGithub className='icon' />
             </a>
-            <a target='_blank'>
+            <a href='https://www.linkedin.com/in/msaezcardenas/' target='_blank'>
               <FaLinkedin className='icon' />
             </a>
-            <a target='_blank'>
+            <a href='/public/pdf/CV Mónica_Sáez.pdf' target='_blank'>
               <FaFileDownload className='icon' />
             </a>
           </div>

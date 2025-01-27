@@ -1,10 +1,14 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
-  display: grid;
-  grid-template-columns: auto 8fr;
-  gap: 8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 2rem;
 
+  h1 {
+    text-align: center;
+  }
   .skills {
     width: 100%;
     display: flex;
@@ -24,5 +28,11 @@ export const Wrapper = styled.div`
   .icon {
     height: 50px;
     width: auto;
+  }
+
+  @media (min-width: 768px) {
+    display: grid;
+    grid-template-columns: auto 8fr;
+    gap: 8rem;
   }
 `;

@@ -2,13 +2,18 @@ import styled from 'styled-components';
 
 export const Wrapper = styled.nav`
   position: relative;
+  overflow: visible;
 
   .navbar {
     display: flex;
+    background-color: ${({ theme }) => theme.colors.primary};
+    width: 100%;
     align-items: center;
     justify-content: space-between;
     padding: 1rem 1.5rem;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    z-index: 1002;
   }
 
   .nav-content {
@@ -52,7 +57,7 @@ export const Wrapper = styled.nav`
     display: flex;
     flex-direction: column;
     padding: 1rem 2rem;
-    z-index: 1001;
+    z-index: 1003;
   }
 
   .sidebar.open {
@@ -101,7 +106,7 @@ export const Wrapper = styled.nav`
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.5);
     display: none;
-    z-index: 1000;
+    z-index: 1003;
     transition: opacity 0.3s ease;
   }
 
@@ -110,8 +115,15 @@ export const Wrapper = styled.nav`
   }
 
   @media (min-width: 768px) {
+    position: relative;
+    overflow: visible;
+    width: 100%;
+
     .navbar {
       width: 100%;
+      padding: 0.5rem 1.5rem;
+      top: 0;
+      background-color: ${({ theme }) => theme.colors.primary};
     }
 
     .nav-content {
@@ -125,6 +137,7 @@ export const Wrapper = styled.nav`
 
     ul {
       gap: 3rem;
+      margin-top: 1rem;
     }
     .menu-btn {
       display: none;

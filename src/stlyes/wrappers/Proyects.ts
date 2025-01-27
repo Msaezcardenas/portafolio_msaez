@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Wrapper = styled.div`
   width: 56rem;
   margin: 0 auto;
-  margin-top: 2rem;
+  margin-top: 6rem;
 
   .link {
     height: 40px;
@@ -50,5 +50,8 @@ export const Wrapper = styled.div`
   p {
     margin-bottom: 1.5rem;
     letter-spacing: 1px;
+  }
+
+  @media (min-width: 768px) {
   }
 `;

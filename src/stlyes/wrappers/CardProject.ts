@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
-  width: 350px;
+  width: 280px;
   .card {
     cursor: pointer;
     display: flex;
@@ -29,11 +29,10 @@ export const Wrapper = styled.div`
 
   .card:hover .link-icon {
     opacity: 1;
-    /* color: #fafafa; */
   }
 
   .img-container {
-    width: 350px;
+    width: 280px;
     height: auto;
   }
   .img-container img {
@@ -50,5 +49,13 @@ export const Wrapper = styled.div`
   .tecnologies {
     justify-content: start;
     margin: 0;
+  }
+
+  @media (min-width: 992px) {
+    width: 350px;
+    .img-container {
+      width: 350px;
+      height: auto;
+    }
   }
 `;

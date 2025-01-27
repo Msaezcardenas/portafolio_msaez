@@ -6,7 +6,7 @@ export const Wrapper = styled.div`
     position: relative;
     max-width: 900px;
     margin: 0 auto;
-    padding: 40px 0;
+    padding: 1rem;
     list-style-type: none;
   }
 
@@ -39,13 +39,13 @@ export const Wrapper = styled.div`
   }
 
   .timeline-content {
-    margin-left: 150px;
-    padding-left: 20px;
+    margin-left: 35px;
+    padding-left: 1rem;
     background-color: ${({ theme }) => theme.colors.secondary};
     border-radius: 6px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    width: 80%;
+    padding: 1rem;
+    width: 100%;
   }
 
   span {
@@ -59,5 +59,27 @@ export const Wrapper = styled.div`
   }
   li {
     padding: 0.3rem 0;
+  }
+
+  @media (min-width: 720px) {
+    .timeline-item {
+      max-width: 95%;
+    }
+
+    .timeline-content {
+      margin-left: 80px;
+      width: 80%;
+    }
+  }
+
+  @media (min-width: 992px) {
+    .timeline {
+      padding: 40px 0;
+    }
+
+    .timeline-content {
+      margin-left: 120px;
+      width: 80%;
+    }
   }
 `;
