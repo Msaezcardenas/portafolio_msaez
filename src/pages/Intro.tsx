@@ -6,22 +6,25 @@ const Intro = () => {
   return (
     <Wrapper>
       <div className='intro'>
-        <div className='social-links'>
-          <a target='_blank'>
-            <FaGithub className='icon' />
-          </a>
-          <a target='_blank'>
-            <FaLinkedin className='icon' />
-          </a>
-          <a target='_blank'>
-            <FaFileDownload className='icon' />
-          </a>
-        </div>
-        <div className='avatar-container'>
-          <div className='avatar'>
-            <img src={avatar} alt='Avatar' />
+        <div className='social-and-avatar'>
+          <div className='social-links'>
+            <a target='_blank'>
+              <FaGithub className='icon' />
+            </a>
+            <a target='_blank'>
+              <FaLinkedin className='icon' />
+            </a>
+            <a target='_blank'>
+              <FaFileDownload className='icon' />
+            </a>
+          </div>
+          <div className='avatar-container'>
+            <div className='avatar'>
+              <img src={avatar} alt='Avatar' />
+            </div>
           </div>
         </div>
+
         <div className='about'>
           <h1 className='role'>Hola! Soy Molu</h1>
           <h3> Full-Stack Developer</h3>

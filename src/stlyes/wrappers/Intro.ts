@@ -2,16 +2,26 @@ import styled from 'styled-components';
 
 export const Wrapper = styled.section`
   .intro {
-    display: grid;
-    grid-template-columns: auto 2fr 1.5fr;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    height: 60vh;
+    width: 100%;
+  }
+
+  .social-and-avatar {
+    display: flex;
+    padding: 1rem;
+    width: 100%;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
   }
 
   .social-links {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;
   }
 
   .icon {
@@ -43,11 +53,10 @@ export const Wrapper = styled.section`
   }
 
   .avatar {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     overflow: hidden;
-    margin-bottom: 1.5rem;
     box-shadow: ${({ theme }) => theme.colors.shadow};
   }
 
@@ -55,6 +64,12 @@ export const Wrapper = styled.section`
     width: 100%;
     height: 100%;
     object-fit: cover;
+  }
+
+  .about {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1rem;
   }
 
   .role {
@@ -74,5 +89,32 @@ export const Wrapper = styled.section`
     letter-spacing: 1px;
     line-height: 1.25rem;
     font-weight: 600;
+  }
+
+  @media (min-width: 768px) {
+    padding: 2rem 0;
+    .intro {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 3rem;
+    }
+    .social-and-avatar {
+      padding: 0;
+    }
+
+    .avatar-container {
+      order: 1;
+    }
+
+    .about {
+      text-align: left;
+      padding: 1rem;
+    }
+
+    .avatar {
+      width: 250px;
+      height: 250px;
+    }
   }
 `;
