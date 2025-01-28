@@ -9,6 +9,7 @@ export const GlobalStyle = createGlobalStyle`
     color: ${({ theme }) => theme.colors.text};
      font-family: "Quicksand", serif;
     transition: background-color 0.3s ease, color 0.3s ease; 
+      overflow-x: hidden;
   }
 
   a{

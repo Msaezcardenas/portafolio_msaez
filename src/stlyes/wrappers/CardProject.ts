@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
-  width: 280px;
+  width: 350px;
   .card {
     cursor: pointer;
     display: flex;
@@ -22,7 +22,6 @@ export const Wrapper = styled.div`
     top: 10px;
     right: 10px;
     font-size: 1.5rem;
-    color: rgba(0, 0, 0, 0.5);
     opacity: 0;
     transition: opacity 0.3s ease, color 0.3s ease;
   }
@@ -32,7 +31,7 @@ export const Wrapper = styled.div`
   }
 
   .img-container {
-    width: 280px;
+    width: 350px;
     height: auto;
   }
   .img-container img {
@@ -44,18 +43,12 @@ export const Wrapper = styled.div`
     margin-bottom: 1cqh;
   }
   .description {
+    display: flex;
     padding: 1rem;
+    gap: 0.5rem;
+    flex-direction: column;
   }
   .tecnologies {
     justify-content: start;
-    margin: 0;
-  }
-
-  @media (min-width: 992px) {
-    width: 350px;
-    .img-container {
-      width: 350px;
-      height: auto;
-    }
   }
 `;

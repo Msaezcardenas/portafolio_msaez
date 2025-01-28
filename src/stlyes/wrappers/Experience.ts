@@ -51,7 +51,6 @@ export const Wrapper = styled.div`
   span {
     display: block;
     margin-top: 10px;
-    color: #999;
   }
   ul {
     list-style-type: disc;

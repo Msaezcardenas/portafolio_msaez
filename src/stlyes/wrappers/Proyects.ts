@@ -1,9 +1,10 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
-  width: 56rem;
+  padding: 1rem;
   margin: 0 auto;
   margin-top: 6rem;
+  width: 100%;
 
   .link {
     height: 40px;
@@ -53,5 +54,6 @@ export const Wrapper = styled.div`
   }
 
   @media (min-width: 768px) {
+    width: 56rem;
   }
 `;

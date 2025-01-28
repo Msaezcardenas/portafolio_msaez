@@ -19,7 +19,7 @@ const workExperiences: WorkExperience[] = [
   },
   {
     role: 'Full-stack Developer en TOCTOC.com',
-    timePeriod: '2019 - 2003',
+    timePeriod: '2019 - 2023',
     responsibilities: [
       'Participación activa en reuniones diarias, planificación de sprints y retrospectivas, asegurando una gestión eficiente del proyecto y el cumplimiento de los objetivos.',
       'Contribución al desarrollo de aplicaciones web, trabajando tanto en el front-end como en el back-end para implementar funcionalidades clave',

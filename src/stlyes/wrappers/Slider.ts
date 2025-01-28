@@ -1,23 +1,35 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
+  width: 100%;
+  max-width: 310px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+
   .slider {
     position: relative;
     width: 100%;
     height: auto;
     overflow: hidden;
-    margin: auto;
+    margin: 0 auto;
     border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: ${({ theme }) => theme.colors.shadow};
   }
 
   .slider-container {
     display: flex;
-    transition: transform 0.5s ease-in-out; /* Animación suave */
+    transition: transform 0.5s ease-in-out;
   }
 
   .slider-image {
     width: 100%;
-    flex-shrink: 0; /* Evita que las imágenes se reduzcan */
+    flex-shrink: 0;
   }
 
   .slider-button {
@@ -44,5 +56,21 @@ export const Wrapper = styled.div`
 
   .slider-button:hover {
     background: rgba(0, 0, 0, 0.7);
+  }
+  @media (min-width: 480px) {
+    max-width: 420px;
+  }
+
+  @media (min-width: 720px) {
+    max-width: 620px;
+    .slider {
+      max-width: 100%;
+    }
+  }
+  @media (min-width: 992px) {
+    max-width: 100%;
+    .slider {
+      max-width: 100%;
+    }
   }
 `;

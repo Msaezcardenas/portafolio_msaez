@@ -14,7 +14,7 @@ export const darkTheme = {
     title: '#32CD32',
     secondary: '#242424',
     text: '#EAEAEA',
-    shadow: '0 6px 6px -1px rgba(255, 255, 255, 0.1), 0 6px 4px -1px rgba(255, 255, 255, 0.06)',
+    shadow: '0px 4px 10px #1e1e1e',
     secondaryText: '#bbbbbb',
   },
 };

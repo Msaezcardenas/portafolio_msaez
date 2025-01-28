@@ -13,13 +13,14 @@ export const Wrapper = styled.div`
     width: 100%;
     height: 100px;
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: ${({ theme }) => theme.colors.shadow};
     border-radius: 15px;
+    font-size: 14px;
   }
 
   .item-color {
-    height: 80px;
-    width: 80px;
+    height: 60px;
+    width: 60px;
     border-radius: 50%;
     text-align: center;
     align-content: center;
@@ -37,6 +38,17 @@ export const Wrapper = styled.div`
     }
     &.cta {
       background-color: #1c7c54;
+    }
+  }
+
+  @media (min-width: 992px) {
+    .colors {
+      justify-content: space-around;
+      font-size: 16px;
+    }
+    .item-color {
+      height: 80px;
+      width: 80px;
     }
   }
 `;

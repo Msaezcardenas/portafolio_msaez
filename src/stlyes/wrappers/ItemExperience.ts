@@ -10,9 +10,9 @@ export const Wrapper = styled.div`
 
   .timeline-content span {
     font-size: 1rem;
-    /* color: #777; */
     display: block;
     margin-bottom: 15px;
+    opacity: 0.8;
   }
 
   .timeline-content ul {
@@ -23,6 +23,6 @@ export const Wrapper = styled.div`
   .timeline-content li {
     font-size: 1rem;
     margin-bottom: 8px;
-    /* color: ${({ theme }) => theme.colors.secondaryText}; */
+    letter-spacing: 1px;
   }
 `;

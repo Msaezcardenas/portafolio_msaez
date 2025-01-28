@@ -54,7 +54,7 @@ export const projects: Project[] = [
   },
 
   {
-    id: 1,
+    id: 2,
     title: 'Vegan Felino',
     description: {
       title: 'Vegan Felino',

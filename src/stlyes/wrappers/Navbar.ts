@@ -11,9 +11,9 @@ export const Wrapper = styled.nav`
     align-items: center;
     justify-content: space-between;
     padding: 1rem 1.5rem;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     position: fixed;
     z-index: 1002;
+    box-shadow: ${({ theme }) => theme.colors.shadow};
   }
 
   .nav-content {
