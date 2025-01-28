@@ -6,17 +6,13 @@ interface DesignProps {
 
 const Design: React.FC<DesignProps> = ({ design }) => {
   const { hasPallet, colors } = design;
+  console.log(colors);
 
   return hasPallet ? (
     <Wrapper>
       <div className='colors'>
         {colors.map((color) => {
-          const [firstPart, secondPart] = color.split('-');
-          return (
-            <div key={color} className={`item-color ${secondPart}`}>
-              #{firstPart}
-            </div>
-          );
+          return <div key={color} className={`item-color ${color}`}></div>;
         })}
       </div>
     </Wrapper>

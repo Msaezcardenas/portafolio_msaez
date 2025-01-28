@@ -20,7 +20,7 @@ export const projects: Project[] = [
       { id: 5, name: 'Jest' },
     ],
     images: [one, dos, tres],
-    design: { hasPallet: true, colors: ['ffe785-bg', '333333-color', 'f96900-secondary', '1c7c54-cta'] },
+    design: { hasPallet: true, colors: ['bg', 'color', 'secondary', 'cta'] },
     characteristics: [
       {
         categoryTitle: 'Modelo basado en API RESTful:',
@@ -69,7 +69,7 @@ export const projects: Project[] = [
       { id: 5, name: 'Jest' },
     ],
     images: [one, dos, tres],
-    design: { hasPallet: true, colors: ['ffe785-bg', '333333-color', 'f96900-secondary', '1c7c54-cta'] },
+    design: { hasPallet: true, colors: ['bg', 'color', 'secondary', 'cta'] },
     characteristics: [
       {
         categoryTitle: 'Modelo basado en API RESTful:',

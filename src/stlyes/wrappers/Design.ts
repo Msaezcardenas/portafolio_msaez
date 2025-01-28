@@ -16,7 +16,6 @@ export const Wrapper = styled.div`
     border-radius: 10px;
     box-shadow: ${({ theme }) => theme.colors.shadow};
     border-radius: 15px;
-    align-content: center;
     font-size: 14px;
   }
 
