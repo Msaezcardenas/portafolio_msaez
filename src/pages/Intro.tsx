@@ -14,7 +14,7 @@ const Intro = () => {
             <a href='https://www.linkedin.com/in/msaezcardenas/' target='_blank'>
               <FaLinkedin className='icon' />
             </a>
-            <a href='/public/pdf/CV Mónica_Sáez.pdf' target='_blank'>
+            <a href='/pdf/cv.pdf' target='_blank'>
               <FaFileDownload className='icon' />
             </a>
           </div>

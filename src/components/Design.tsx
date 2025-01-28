@@ -6,7 +6,6 @@ interface DesignProps {
 
 const Design: React.FC<DesignProps> = ({ design }) => {
   const { hasPallet, colors } = design;
-  console.log(colors);
 
   return hasPallet ? (
     <Wrapper>
