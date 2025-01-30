@@ -2,11 +2,10 @@ import styled from 'styled-components';
 
 export const Wrapper = styled.div`
   display: flex;
-  margin-top: 3rem;
-  margin: 3rem auto;
   align-items: center;
   align-content: center;
   width: 100%;
+  margin-top: 2rem;
   .colors {
     display: flex;
     align-items: center;

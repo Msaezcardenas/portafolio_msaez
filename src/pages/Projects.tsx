@@ -1,8 +1,9 @@
 import CardProject from '../components/CardProject';
+import { useProjects } from '../hooks/useProjects';
 import { Wrapper } from '../stlyes/wrappers/ProjectSection';
-import { projects } from '../data/projectsData';
 
 const Projects = () => {
+  const projects = useProjects();
   return (
     <Wrapper>
       <h3> Estos son algunos de mis trabajos</h3>

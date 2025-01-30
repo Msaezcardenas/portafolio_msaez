@@ -10,7 +10,7 @@ import { Project } from '../types/types';
 const ProjectDetail: React.FC = () => {
   const location = useLocation();
   const { project } = location.state as { project: Project };
-  const { description, tecnologies, design, images, characteristics } = project;
+  const { description, tecnologies, design, images, characteristics, link } = project;
 
   if (!project) {
     return <div>No project data found.</div>;
@@ -18,7 +18,7 @@ const ProjectDetail: React.FC = () => {
   return (
     <Wrapper>
       <HeaderProject description={description} />
-      <TecnologiesProject tecnologies={tecnologies} />
+      <TecnologiesProject tecnologies={tecnologies} linkVisible={true} link={link} />
       <Slider images={images} />
       <Design design={design} />
       <Characteristics characteristics={characteristics} />

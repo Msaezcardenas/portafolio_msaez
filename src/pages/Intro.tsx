@@ -1,6 +1,7 @@
 import { Wrapper } from '../stlyes/wrappers/Intro';
 import { FaFileDownload, FaGithub, FaLinkedin } from 'react-icons/fa';
 import avatar from '../assets/avatar.jpg';
+import ImageWithSkeleton from '../components/imageWithSkeleton';
 
 const Intro = () => {
   return (
@@ -19,9 +20,7 @@ const Intro = () => {
             </a>
           </div>
           <div className='avatar-container'>
-            <div className='avatar'>
-              <img src={avatar} alt='Avatar' />
-            </div>
+            <ImageWithSkeleton src={avatar} alt='avatar' className='avatar' height='100%' />
           </div>
         </div>
 

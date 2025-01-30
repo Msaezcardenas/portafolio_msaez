@@ -1,12 +1,15 @@
 import { Project } from '../types/types';
-import one from '../assets/uno.jpg';
-import dos from '../assets/dos.jpg';
-import tres from '../assets/tres.jpg';
+import one from '../assets/veganfelino_1.png';
+import dos from '../assets/vegan-felino-mobile.png';
+import tres from '../assets/veganfelino.png';
+import cuatro from '../assets/tareas.png';
+import cinco from '../assets/figmavg.png';
 
 export const projects: Project[] = [
   {
     id: 1,
     title: 'Vegan Felino',
+    link: 'https://vegan-felino.vercel.app/',
     description: {
       title: 'Vegan Felino',
       date: 'Nov - 2024',
@@ -19,7 +22,7 @@ export const projects: Project[] = [
       { id: 4, name: 'Redux' },
       { id: 5, name: 'Jest' },
     ],
-    images: [one, dos, tres],
+    images: [one, tres, dos, cuatro, cinco],
     design: { hasPallet: true, colors: ['bg', 'color', 'secondary', 'cta'] },
     characteristics: [
       {
@@ -56,6 +59,7 @@ export const projects: Project[] = [
   {
     id: 2,
     title: 'Vegan Felino',
+    link: 'https://vegan-felino.vercel.app/',
     description: {
       title: 'Vegan Felino',
       date: 'Nov - 2024',
@@ -68,7 +72,7 @@ export const projects: Project[] = [
       { id: 4, name: 'Redux' },
       { id: 5, name: 'Jest' },
     ],
-    images: [one, dos, tres],
+    images: [one, dos, tres, cuatro],
     design: { hasPallet: true, colors: ['bg', 'color', 'secondary', 'cta'] },
     characteristics: [
       {

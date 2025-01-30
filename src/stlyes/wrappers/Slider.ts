@@ -19,7 +19,7 @@ export const Wrapper = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: ${({ theme }) => theme.colors.shadow};
+    /* box-shadow: ${({ theme }) => theme.colors.shadow}; */
   }
 
   .slider-container {
@@ -69,8 +69,23 @@ export const Wrapper = styled.div`
   }
   @media (min-width: 992px) {
     max-width: 100%;
+    /* max-height: 500px; */
+    .slider-container {
+      height: 500px;
+    }
     .slider {
       max-width: 100%;
+      border-radius: 8px;
+      height: 500px;
+    }
+    .slider-image {
+      border-radius: 8px;
+    }
+    img {
+      width: 100%;
+      height: fit-content;
+      object-fit: contain;
+      border-radius: 8px;
     }
   }
 `;
