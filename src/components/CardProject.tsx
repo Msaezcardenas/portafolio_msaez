@@ -20,7 +20,7 @@ const CardProject: React.FC<CardProjectProps> = ({ project }) => {
     <Wrapper>
       <div className='card' onClick={handleClick}>
         <div className='img-container'>
-          <ImageWithSkeleton src={project.images[0]} alt='project' height={'auto'} />
+          <ImageWithSkeleton src={project.images[0]} alt='project' height='auto' className='intro-img' />
           <div className='link-icon'>
             <FaExternalLinkAlt />
           </div>

@@ -34,7 +34,8 @@ export const Wrapper = styled.div`
     width: 350px;
     height: auto;
   }
-  .img-container img {
+
+  .intro-img img {
     width: 100%;
   }
 

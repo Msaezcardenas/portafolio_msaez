@@ -18,7 +18,10 @@ export const Wrapper = styled.div`
     height: auto;
   }
   .link-project {
-    align-content: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     border-radius: 10px;
     width: 7rem;

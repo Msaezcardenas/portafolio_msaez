@@ -9,7 +9,7 @@ interface ImageWithSkeletonProps {
   className?: string;
 }
 
-const ImageWithSkeleton: React.FC<ImageWithSkeletonProps> = ({ src, alt, height = 300, width = '100%', className }) => {
+const ImageWithSkeleton: React.FC<ImageWithSkeletonProps> = ({ src, alt, height, width, className }) => {
   const [loading, setLoading] = useState(true);
 
   return (
