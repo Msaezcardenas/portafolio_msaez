@@ -31,10 +31,10 @@ const Navbar = () => {
           </Link>
           <ul className='nav-links'>
             <li>
-              <Link to='/'>Experience</Link>
+              <Link to='/'>Experiencia</Link>
             </li>
             <li>
-              <Link to='/projects'>Projects</Link>
+              <Link to='/projects'>Proyectos</Link>
             </li>
           </ul>
           <button className='theme-btn' onClick={toggleTheme}>

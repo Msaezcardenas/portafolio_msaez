@@ -13,7 +13,7 @@ export const Wrapper = styled.div`
     transition: box-shadow 0.3s ease, transform 0.3s ease;
   }
   .card:hover {
-    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+    box-shadow: ${({ theme }) => theme.colors.shadow};
     transform: translateY(-5px);
   }
 

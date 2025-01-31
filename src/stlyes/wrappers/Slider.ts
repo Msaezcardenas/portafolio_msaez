@@ -7,7 +7,6 @@ export const Wrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 2rem;
 
   .slider {
     position: relative;
@@ -19,7 +18,6 @@ export const Wrapper = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    /* box-shadow: ${({ theme }) => theme.colors.shadow}; */
   }
 
   .slider-container {
@@ -69,9 +67,9 @@ export const Wrapper = styled.div`
   }
   @media (min-width: 992px) {
     max-width: 100%;
-    /* max-height: 500px; */
+
     .slider-container {
-      height: 500px;
+      height: 400px;
     }
     .slider {
       max-width: 100%;

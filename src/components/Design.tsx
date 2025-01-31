@@ -1,7 +1,7 @@
 import { Wrapper } from '../stlyes/wrappers/Design';
 
 interface DesignProps {
-  design: { hasPallet: true; colors: string[] };
+  design: { hasPallet: boolean; colors: string[] };
 }
 
 const Design: React.FC<DesignProps> = ({ design }) => {

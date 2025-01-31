@@ -3,8 +3,8 @@ export interface Project {
   title: string;
   link: string;
   description: { title: string; date: string; details: string };
-  tecnologies: { id: number; name: string }[]; // Array de tecnologías
-  images: string[]; // Array de URLs de imágenes
-  design: { hasPallet: true; colors: string[] };
-  characteristics: { categoryTitle: string; items: string[] }[]; // Características del proyecto
+  tecnologies: { id: string; name: string }[];
+  images: string[];
+  design: { hasPallet: boolean; colors: string[] };
+  characteristics: { categoryTitle: string; items: string[] }[];
 }

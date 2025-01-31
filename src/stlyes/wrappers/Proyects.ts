@@ -6,6 +6,10 @@ export const Wrapper = styled.div`
   margin-top: 6rem;
   width: 100%;
 
+  .slider-container {
+    margin-top: 2rem;
+  }
+
   .link {
     height: 40px;
     width: auto;
@@ -58,5 +62,8 @@ export const Wrapper = styled.div`
   }
   @media (min-width: 992px) {
     width: 56rem;
+    .slider-container {
+      margin-top: 0;
+    }
   }
 `;

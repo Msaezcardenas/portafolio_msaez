@@ -4,10 +4,9 @@ export const Wrapper = styled.div`
   box-shadow: ${({ theme }) => theme.colors.shadow};
   padding: 20px;
   border-radius: 12px;
-  margin-top: 20px;
 
   .item {
-    margin: 2rem 0;
+    margin: 1rem 1rem 2rem 1rem;
   }
   h2 {
     margin-bottom: 1rem;

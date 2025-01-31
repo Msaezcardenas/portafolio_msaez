@@ -28,8 +28,9 @@ const Intro = () => {
           <h1 className='role'>Hola! Soy Molu</h1>
           <h3> Full-Stack Developer</h3>
           <p>
-            Soy Molu!, una apasionada desarrolladora full-stack con experiencia en la creación de aplicaciones dinámicas y escalables. Siempre estoy
-            buscando aprender nuevas herramientas y afrontar desafíos. ¡Conéctate conmigo para crear algo increíble!
+            Soy una desarrolladora full-stack apasionada por crear aplicaciones dinámicas y escalables. Me encanta aprender nuevas herramientas y
+            enfrentar desafíos que impulsen mi crecimiento profesional. Siempre estoy lista para colaborar en proyectos innovadores. ¡Conéctate
+            conmigo y juntos podemos crear algo increíble!
           </p>
         </div>
       </div>

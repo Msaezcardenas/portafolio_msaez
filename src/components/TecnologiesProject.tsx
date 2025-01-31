@@ -1,12 +1,13 @@
-import { FaReact } from 'react-icons/fa';
+import { FaCss3Alt, FaFigma, FaNode, FaReact } from 'react-icons/fa';
 import { TbBrandTypescript } from 'react-icons/tb';
 import { RiJavascriptFill } from 'react-icons/ri';
-import { SiJest, SiRedux } from 'react-icons/si';
+import { SiExpress, SiJest, SiMocha, SiRedux, SiSwagger } from 'react-icons/si';
 import { FaLink } from 'react-icons/fa6';
 import { Wrapper } from '../stlyes/wrappers/Tecnologies';
+import { BiLogoMongodb } from 'react-icons/bi';
 
 interface TecnologiesProjectProps {
-  tecnologies: { id: number; name: string }[];
+  tecnologies: { id: string; name: string }[];
   linkVisible: boolean;
   link: string;
 }
@@ -24,6 +25,20 @@ const TecnologiesProject: React.FC<TecnologiesProjectProps> = ({ tecnologies, li
         return <SiRedux className='icon' />;
       case 'Jest':
         return <SiJest className='icon' />;
+      case 'Node':
+        return <FaNode className='icon' />;
+      case 'Express':
+        return <SiExpress className='icon' />;
+      case 'Mongodb':
+        return <BiLogoMongodb className='icon' />;
+      case 'Swagger':
+        return <SiSwagger className='icon' />;
+      case 'Mocha':
+        return <SiMocha className='icon' />;
+      case 'Figma':
+        return <FaFigma className='icon' />;
+      case 'Css':
+        return <FaCss3Alt className='icon' />;
       default:
         return null;
     }

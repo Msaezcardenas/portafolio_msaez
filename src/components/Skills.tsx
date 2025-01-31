@@ -2,7 +2,7 @@ import { FaFigma, FaGithub, FaNodeJs, FaReact } from 'react-icons/fa';
 import { Wrapper } from '../stlyes/wrappers/Skills';
 import { TbBrandTypescript } from 'react-icons/tb';
 import { RiJavascriptFill } from 'react-icons/ri';
-import { SiExpress, SiJest, SiMongodb, SiRedux } from 'react-icons/si';
+import { SiExpress, SiJest, SiMongodb, SiRedux, SiSwagger } from 'react-icons/si';
 import { DiMysql } from 'react-icons/di';
 
 const Skills = () => {
@@ -34,6 +34,7 @@ const Skills = () => {
           <div className='icons'>
             <FaFigma className='icon' />
             <FaGithub className='icon' />
+            <SiSwagger className='icon' />
           </div>
         </div>
       </div>
