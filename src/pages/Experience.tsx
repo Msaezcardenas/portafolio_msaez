@@ -9,7 +9,7 @@ type WorkExperience = {
 
 const workExperiences: WorkExperience[] = [
   {
-    role: 'Freelance Full-Stack Developer',
+    role: 'Proyecto E-commerce Full-Stack Developer',
     timePeriod: '2023 - present',
     responsibilities: [
       'Diseñé y desarrollé una página e-commerce con una interfaz moderna y funcional, utilizando tecnologías como React, Node.js, y TypeScript.',
@@ -21,9 +21,11 @@ const workExperiences: WorkExperience[] = [
     role: 'Full-stack Developer en TOCTOC.com',
     timePeriod: '2019 - 2023',
     responsibilities: [
-      'Participación activa en reuniones diarias, planificación de sprints y retrospectivas, asegurando una gestión eficiente del proyecto y el cumplimiento de los objetivos.',
-      'Contribución al desarrollo de aplicaciones web, trabajando tanto en el front-end como en el back-end para implementar funcionalidades clave',
-      'Colaboración en sesiones de concepto de diseño, producto y UX, ofreciendo apoyo técnico para la implementación de nuevos requerimientos',
+      'Participé en la migración del landing de corredoras en Toctoc, pasando de React con componentes de clase a React con Redux. Implementé la gestión del estado global con el store, mejorando la organización y mantenibilidad del código.',
+      'Optimicé la carga del landing de propiedad en Toctoc implementando lazy loading con useRef, reduciendo el tiempo de carga en 2 segundos y mejorando la experiencia del usuario.',
+      'Administré bases de datos relacionales en MySQL, garantizando la integridad y escalabilidad de los datos. Implementé el uso de DTOs (Data Transfer Objects) para optimizar la transferencia de grandes volúmenes de datos, mejorando el rendimiento y reduciendo la carga en el servidor.',
+      'Trabajé en conjunto con diseñadores UX/UI para desarrollar e implementar interfaces responsivas y accesibles, asegurando una experiencia de usuario fluida en diferentes dispositivos.',
+      'Participé en la planificación de sprints y reuniones ágiles, contribuyendo a la organización del equipo y asegurando entregas dentro de los plazos establecidos.',
     ],
   },
 ];
