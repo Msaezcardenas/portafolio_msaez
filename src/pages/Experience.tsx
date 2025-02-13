@@ -10,7 +10,7 @@ type WorkExperience = {
 const workExperiences: WorkExperience[] = [
   {
     role: 'Proyecto E-commerce Full-Stack Developer',
-    timePeriod: '2023 - present',
+    timePeriod: '2024 - present',
     responsibilities: [
       'Diseñé y desarrollé una página e-commerce con una interfaz moderna y funcional, utilizando tecnologías como React, Node.js, y TypeScript.',
       'Implementé un sistema de gestión de productos y configuración de carrito de compras.',
